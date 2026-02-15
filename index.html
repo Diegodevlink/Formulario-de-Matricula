@@ -19,7 +19,7 @@
                 </div>
                 <h1>Formulário de Matrícula </h1>
                 <p>Preencha os dados abaixo para matrícular seu filho na escola de educação infantil Estrelas do Amanhã</p>
-                <form action="" method="post" enctype="multipart/form-data">
+                <form method="post" enctype="multipart/form-data">
                     <fieldset class="child-info">
                         <legend>Informações da Criança</legend>
 
@@ -33,24 +33,23 @@
 
                         <div class="input-wrapper">
                             <label for="birth">Data de Nascimento</label>
-                            <input type="Date" id="birth" name="birth" lang="pt-br">
+                            <input type="date" id="birth" name="birth" lang="pt-br">
                         </div>
                         <div class="select-wrapper">
                           <label for="gender">Sexo</label>  
                           <select name="gender" id="gender">
                             <option value="female">Feminino</option>
                             <option value="male">Masculino</option>
-                            <option value="na">Prefiro não</option>
+                            <option value="na">Prefiro não responder</option>
                           </select>
                         </div>
 
                         <div class="textarea-wrapper">
-                            <label for="Medical-info">Informações médicas</label>
+                            <label for="medical-info">Informações médicas</label>
                             <textarea name="medical-info" id="medical-info"
                             cols="30" rows="10"
                             placeholder="A criança possui alguma condição médica que a escola deve estar ciente? (Se sim, especifique)"
-                            >   
-                            </textarea>
+                            ></textarea>
                         </div>
 
                         <div class="droparea-wrapper">
